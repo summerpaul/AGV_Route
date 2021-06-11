@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Roadmap/lane.csv</file>
+        <file>Roadmap/node.csv</file>
+        <file>Background.qml</file>
+        <file>RouteMenuBar.qml</file>
+        <file>RouteToolBar.qml</file>
+    </qresource>
+</RCC>
