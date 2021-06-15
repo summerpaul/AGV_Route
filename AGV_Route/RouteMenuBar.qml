@@ -1,12 +1,10 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
-
-
+import QtQuick.Dialogs 1.2
+import sunny.QmlInterface 1.0
 Item {
     MenuBar {
         id: menuBar
-//        width: 100
-//        height: 50
         anchors.fill: parent
         clip: false
         Menu{
@@ -35,6 +33,47 @@ Item {
         title: qsTr("Edit")
                 }
 
+    }
+//    FileDialog{
+//        id:nodeDialog
+//        title: "Please choose a node file"
+//        folder: "./Roadmap"
+//        onAccepted: {
+//            console.log("You choose: " + fileUrl)
+////            if(Qt.platform.os == "linux")
+////            {
+////                inter.setNodePath(fileUrl.toString().substring(7))
+////            }
+////            else if(Qt.platform.os == "windows")
+////            {
+////                inter.setNodePath(fileUrl.toString().substring(8))
+
+////            }
+
+
+//        }
+//    }
+//    FileDialog{
+//        id:laneDialog
+//        title: "please choose a lane file"
+//        folder: "../AGV_Route/Roadmap"
+//        onAccepted: {
+//            console.log("You choose: " + fileUrl)
+////            if(Qt.platform.os == "linux")
+////            {
+////                inter.setLanePath(fileUrl.toString().substring(7))
+////            }
+////            else if(Qt.platform.os == "windows")
+////            {
+////                inter.setLanePath(fileUrl.toString().substring(8))
+
+////            }
+
+
+//        }
+//    }
+    QmlInterface{
+        id: inter
     }
 
 }

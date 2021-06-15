@@ -6,5 +6,8 @@
         <file>Background.qml</file>
         <file>RouteMenuBar.qml</file>
         <file>RouteToolBar.qml</file>
+        <file>RouteCanvas.qml</file>
+        <file>RouteStatusBar.qml</file>
+        <file>Circle.qml</file>
     </qresource>
 </RCC>
