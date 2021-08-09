@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sunnypaul/Project/github/Reflector_localization/Ros_tcp_server/tcp_server_ws/src/tcp_server/src/tcp_server.cpp
+

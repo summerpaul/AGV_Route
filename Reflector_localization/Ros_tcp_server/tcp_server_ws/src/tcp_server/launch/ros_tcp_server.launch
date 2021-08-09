@@ -1,0 +1,3 @@
+<launch>
+    <node name="tcp_server" pkg="tcp_server" type="ros_tcp_server_node" output="screen"></node>
+</launch>

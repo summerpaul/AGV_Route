@@ -1,0 +1,19 @@
+(cl:defpackage messagefiles-msg
+  (:use )
+  (:export
+   "<AGVSTATUS>"
+   "AGVSTATUS"
+   "<DAHUAQRCODESCANDATA>"
+   "DAHUAQRCODESCANDATA"
+   "<ERRORMESSAGE>"
+   "ERRORMESSAGE"
+   "<ERRORMESSAGES>"
+   "ERRORMESSAGES"
+   "<POINT2D>"
+   "POINT2D"
+   "<REFLECTORPOINTS>"
+   "REFLECTORPOINTS"
+   "<VEHICLEDATA>"
+   "VEHICLEDATA"
+  ))
+

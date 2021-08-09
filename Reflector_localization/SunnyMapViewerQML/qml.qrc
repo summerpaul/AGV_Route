@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>mainWindow/SunnyToolBar.qml</file>
+        <file>mainWindow/SunnyToolBarForm.ui.qml</file>
+    </qresource>
+</RCC>

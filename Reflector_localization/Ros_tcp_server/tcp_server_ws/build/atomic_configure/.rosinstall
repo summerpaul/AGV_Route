@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sunnypaul/Project/github/Reflector_localization/Ros_tcp_server/tcp_server_ws/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/sunnypaul/Project/github/Reflector_localization/Ros_tcp_server/tcp_server_ws/install
+
+Name: messagefiles
+Description: Description of messagefiles
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

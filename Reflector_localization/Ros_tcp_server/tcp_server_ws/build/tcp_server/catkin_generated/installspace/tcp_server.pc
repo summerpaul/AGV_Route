@@ -1,0 +1,8 @@
+prefix=/home/sunnypaul/Project/github/Reflector_localization/Ros_tcp_server/tcp_server_ws/install
+
+Name: tcp_server
+Description: Description of tcp_server
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
